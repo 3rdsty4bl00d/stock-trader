@@ -4,18 +4,17 @@
     </div>
 </template>
 
-
 <script>
-import Stock from './Stock.vue';
-import mapGetters from 'vuex';
-export default {
-    components: {
-        appStock: Stock
-    },
-    computed: {
-        stocks() {
-            return this.$store.getters.stocks;
+    import Stock from './Stock.vue';
+
+    export default {
+        components: {
+            appStock: Stock
+        },
+        computed: {
+            stocks() {
+                return this.$store.getters.stocks;
+            }
         }
     }
-}
 </script>
