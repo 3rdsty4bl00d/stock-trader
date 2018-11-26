@@ -1,4 +1,4 @@
-import stocks from '../data/stocks'
+
 
 export default [
     { id: 1, name: 'BMW', price: 100 },
